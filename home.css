@@ -217,9 +217,17 @@
   font-weight: 500;
   line-height: 92px;
 }
+.home-image1 {
+  top: 308px;
+  right: 70px;
+  width: 497px;
+  height: 464px;
+  position: absolute;
+  object-fit: cover;
+}
 .home-button3 {
-  top: 671px;
-  left: 176px;
+  top: 725px;
+  left: 167px;
   width: 195px;
   height: 84px;
   position: absolute;
@@ -243,10 +251,6 @@
 }
 .home-container2 {
   display: contents;
-}
-.home-image1 {
-  width: 200px;
-  object-fit: cover;
 }
 @media(max-width: 991px) {
   .home-navbar-interactive {
@@ -350,17 +354,17 @@
   .home-text07 {
     font-family: Lora;
   }
-  .home-button3 {
-    top: 432px;
-    left: 97px;
-    width: 274px;
-    height: 55px;
-  }
   .home-image1 {
-    top: 544px;
-    left: 59px;
+    top: 549px;
+    left: 31px;
     width: 374px;
     height: 304px;
     position: absolute;
+  }
+  .home-button3 {
+    top: 431px;
+    left: 69px;
+    width: 274px;
+    height: 55px;
   }
 }
