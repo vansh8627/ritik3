@@ -225,29 +225,18 @@
   position: absolute;
   object-fit: cover;
 }
-.home-button3 {
+.home-link {
   top: 725px;
   left: 167px;
   width: 195px;
   height: 84px;
   position: absolute;
+  text-decoration: none;
   background-color: #00d200;
 }
 .home-text09 {
   color: #f6f6f7;
   line-height: 21px;
-}
-.home-services {
-  gap: var(--dl-space-space-twounits);
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: flex-start;
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  margin-bottom: var(--dl-space-space-fiveunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
 }
 .home-container2 {
   display: contents;
@@ -271,18 +260,12 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
   }
-  .home-button3 {
+  .home-link {
     width: 100%;
     text-align: center;
   }
   .home-text09 {
     font-family: Lato;
-  }
-  .home-services {
-    align-items: center;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-    justify-content: center;
   }
 }
 @media(max-width: 767px) {
@@ -340,30 +323,42 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .home-description {
-    right: -19px;
-    bottom: -132px;
+    color: rgb(18, 40, 33);
+    right: -15px;
+    bottom: -195px;
     position: absolute;
+    font-size: 24px;
+    font-family: Lato;
+    line-height: 36px;
+  }
+  .home-text04 {
+    line-height: 38px;
+  }
+  .home-text05 {
+    line-height: 38px;
   }
   .home-title {
     color: rgb(18, 40, 33);
     font-size: 36px;
     font-style: normal;
+    margin-top: 0Unit;
     font-weight: 500;
     line-height: 46px;
+    margin-bottom: var(--dl-space-space-halfunit);
   }
   .home-text07 {
     font-family: Lora;
   }
   .home-image1 {
-    top: 549px;
-    left: 31px;
-    width: 374px;
-    height: 304px;
+    top: 552px;
+    left: 24px;
+    width: 346px;
+    height: 303px;
     position: absolute;
   }
-  .home-button3 {
-    top: 431px;
-    left: 69px;
+  .home-link {
+    top: 436px;
+    left: 64px;
     width: 274px;
     height: 55px;
   }
