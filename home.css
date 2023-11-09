@@ -198,17 +198,9 @@
   display: flex;
   position: relative;
   max-width: 1280px;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
-  justify-content: flex-end;
-}
-.home-title {
-  color: rgb(18, 40, 33);
-  font-size: 72px;
-  max-width: 600px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 92px;
+  justify-content: center;
 }
 .home-description {
   color: rgb(18, 40, 33);
@@ -217,20 +209,13 @@
   font-family: "Lato";
   line-height: 36px;
 }
-.home-image1 {
-  width: 720px;
-  height: 700px;
-  display: flex;
-  overflow-x: hidden;
-  align-items: flex-end;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: rgba(250, 228, 142, 1);
-}
-.home-image2 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.home-title {
+  color: rgb(18, 40, 33);
+  font-size: 72px;
+  max-width: 600px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92px;
 }
 .home-button3 {
   top: 671px;
@@ -259,6 +244,10 @@
 .home-container2 {
   display: contents;
 }
+.home-image1 {
+  width: 200px;
+  object-fit: cover;
+}
 @media(max-width: 991px) {
   .home-navbar-interactive {
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -277,14 +266,6 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
-  }
-  .home-image1 {
-    width: 100%;
-    height: auto;
-    position: static;
-    align-items: flex-end;
-    aspect-ratio: 1;
-    justify-content: flex-start;
   }
   .home-button3 {
     width: 100%;
@@ -332,13 +313,13 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-title {
-    font-size: 36px;
-    line-height: 46px;
-  }
   .home-description {
     font-size: 16px;
     line-height: 24px;
+  }
+  .home-title {
+    font-size: 36px;
+    line-height: 46px;
   }
 }
 @media(max-width: 479px) {
@@ -353,5 +334,33 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .home-description {
+    right: -19px;
+    bottom: -132px;
+    position: absolute;
+  }
+  .home-title {
+    color: rgb(18, 40, 33);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+  }
+  .home-text07 {
+    font-family: Lora;
+  }
+  .home-button3 {
+    top: 432px;
+    left: 97px;
+    width: 274px;
+    height: 55px;
+  }
+  .home-image1 {
+    top: 544px;
+    left: 59px;
+    width: 374px;
+    height: 304px;
+    position: absolute;
   }
 }
